@@ -25,7 +25,7 @@ public class ArrayTraining {
      * @return an int array with a, b and c values, eg: {3, 2, 1}
      */
     public int[] intArray(int a, int b, int c) {
-        int[] array = new int[] {a, b, c};
+        int[] array = new int[]{a, b, c};
         return array;
     }
 
@@ -37,7 +37,7 @@ public class ArrayTraining {
      * eg: {"test", sample", "value"}
      */
     public String[] stringArray(String a, String b, String c) {
-        String[] array = new String[] {a, b, c};
+        String[] array = new String[]{a, b, c};
         return array;
     }
 
@@ -133,7 +133,7 @@ public class ArrayTraining {
         if (first.length != second.length) {
             return false;
         }
-        for (int i = 0; i >= 0; i++ ) {
+        for (int i = 0; i >= 0; i++) {
             if (first[i] != second[i]) {
                 return false;
             }
