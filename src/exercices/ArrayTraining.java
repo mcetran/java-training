@@ -4,6 +4,7 @@ public class ArrayTraining {
      * @param n size of the array, eg: 3
      * @return an empty int array of size n, eg: {0, 0, 0}
      */
+
     public int[] emptyIntArray(int n) {
         int[] array = new int[n];
         return array;
