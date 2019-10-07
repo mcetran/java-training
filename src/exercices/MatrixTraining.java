@@ -90,7 +90,7 @@ public class MatrixTraining {
     public int sum(int[][] matrix) {
         int sum = 0;
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
+            for (int j = 0; j < matrix[i].length; j++) {
                 sum += matrix[i][j];
             }
         }
@@ -104,7 +104,7 @@ public class MatrixTraining {
      */
     public boolean contains(int[][] matrix, int search) {
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
+            for (int j = 0; j < matrix[i].length; j++) {
                 if (matrix[i][j] == search) {
                     return true;
                 }
@@ -120,7 +120,7 @@ public class MatrixTraining {
     public int countEvens(int[][] matrix) {
         int evens = 0;
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[j].length; j++) {
+            for (int j = 0; j < matrix[i].length; j++) {
                 if (matrix[i][j] % 2 == 0) {
                     evens++;
                 }
@@ -137,7 +137,7 @@ public class MatrixTraining {
     public int occurrences(char[][] matrix, char search) {
         int occ = 0;
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
+            for (int j = 0; j < matrix[i].length; j++) {
                 if (matrix[i][j] == search) {
                     occ++;
                 }
